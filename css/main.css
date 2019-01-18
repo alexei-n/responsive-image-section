@@ -78,11 +78,11 @@ button:hover {
   }
 
   section {
-    max-width: 100%;
+    max-width: 50%;
   }
 
   .img-flex {
-    flex-direction: column;
+    flex-direction: row;
   }
 
 }
