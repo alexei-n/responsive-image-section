@@ -36,16 +36,21 @@ section {
   display: flex;
 }
 
-button {
+a {
   padding: .5em .75em;
   background-color: #555;
   color: #e2e2e2;
   border-radius: 4px;
   font-size: 1rem;
+  text-decoration: none;
 }
 
-button:hover {
+a:hover {
   background-color: #000;
+}
+
+.img-flex {
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -107,6 +112,11 @@ button:hover {
 
   section div {
     width: 50%;
+  }
+
+  .img-flex {
+    flex-direction: row;
+    text-align: center;
   }
 
 }
