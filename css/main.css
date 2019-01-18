@@ -32,9 +32,8 @@ img {
   width: 100%;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+section {
+  display: flex;
 }
 
 button {
@@ -73,12 +72,16 @@ button:hover {
     line-height: 1.4;
   }
 
-  section {
+  .img-flex {
+    flex-direction: row;
+  }
+
+  .info {
     max-width: 50%;
   }
 
-  .img-flex {
-    flex-direction: row;
+  .image {
+    max-width: 50%;
   }
 
 }
@@ -90,7 +93,11 @@ button:hover {
     line-height: 1.5;
   }
 
-  section {
+  .info {
+    max-width: 50%;
+  }
+
+  .image {
     max-width: 50%;
   }
 
@@ -107,7 +114,11 @@ button:hover {
     line-height: 1.5;
   }
 
-  section {
+  .info {
+    max-width: 50%;
+  }
+
+  .image {
     max-width: 50%;
   }
 
