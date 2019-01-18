@@ -27,17 +27,9 @@ body {
   padding: 1rem 2rem;
 }
 
-section {
-  display: inline-block;
-}
-
-figure {
+img {
   margin: 0;
-}
-
-figure img {
   width: 100%;
-  margin: 0;
 }
 
 .img-flex {
