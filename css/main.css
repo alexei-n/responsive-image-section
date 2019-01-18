@@ -23,9 +23,10 @@ body {
   margin: 0;
 }
 
-section img {
+section figure {
   display: inline-block;
   width: 100%;
+  margin: 0;
 }
 
 .img-flex {
@@ -36,6 +37,7 @@ button {
   padding: 0.5em 0.75em;
   background-color: #555;
   color: #e2e2e2;
+  border-radius: 4px;
 }
 
 @media only screen and (min-width: 25em) {
