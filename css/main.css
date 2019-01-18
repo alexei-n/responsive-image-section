@@ -56,10 +56,6 @@ section img {
     line-height: 1.4;
   }
 
-  section {
-    max-width: 50%;
-  }
-
   .img-flex {
     flex-direction: row;
   }
@@ -92,10 +88,6 @@ section img {
 
   section {
     max-width: 50%;
-  }
-
-  .img-flex {
-    flex-direction: row;
   }
 
 }
