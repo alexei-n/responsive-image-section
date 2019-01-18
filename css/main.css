@@ -41,6 +41,7 @@ button {
   background-color: #555;
   color: #e2e2e2;
   border-radius: 4px;
+  font-size: 1rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -67,8 +68,12 @@ button {
     line-height: 1.4;
   }
 
+  section {
+    max-width: 100%;
+  }
+
   .img-flex {
-    flex-direction: row;
+    flex-direction: column;
   }
 
 }
